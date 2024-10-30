@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Endangered Species</title>
+    <style>
+        /* General Styles */
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            font-family: 'Arial', sans-serif;
+        }
+
+        body {
+            background-color: #f5f5f5;
+            color: #333;
+            line-height: 1.6;
+        }
+
+        header {
+            background-color: #2d6a4f;
+            color: white;
+            padding: 20px 0;
+            text-align: center;
+        }
+
+        header h1 {
+            font-size: 2.5em;
+            font-weight: bold;
+        }
+
+        nav ul {
+            list-style: none;
+            padding: 0;
+        }
+
+        nav ul li {
+            display: inline-block;
+            margin: 0 15px;
+        }
+
+        nav ul li a {
+            color: white;
+            text-decoration: none;
+            font-size: 1.2em;
+        }
+
+        nav ul li a:hover {
+            text-decoration: underline;
+        }
+
+        /* Species Section */
+        .species-gallery {
+            display: flex;
+            justify-content: space-around;
+            flex-wrap: wrap;
+            margin: 40px 0;
+        }
+
+        .species-card {
+            background-color: white;
+            border-radius: 10px;
+            padding: 15px;
+            width: 30%;
+            text-align: center;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+        }
+
+        .species-card img {
+            max-width: 100%;
+            height: auto;
+            border-radius: 10px;
+            margin: 0 auto;
+            display: block;
+        }
+
+        .species-card h3 {
+            margin-top: 15px;
+            font-size: 1.5em;
+            color: #40916c;
+        }
+
+        .species-card p {
+            font-size: 1em;
+            color: #333;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Nature Conservation Awareness</h1>
+        <nav>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="species.html">Endangered Species</a></li>
+                <li><a href="initiatives.html">Conservation Initiatives</a></li>
+                <li><a href="blog.html">Blog</a></li>
+                <li><a href="events.html">Events</a></li>
+                <li><a href="contact.html">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <section id="species">
+        <h2>Endangered Species</h2>
+        <div class="species-gallery">
+            <div class="species-card">
+                <img src="https://th.bing.com/th/id/OIP.qUDnX4VSlgN2A48IIQsyZQHaE8?w=247&h=180&c=7&r=0&o=5&dpr=1.5&pid=1.7" alt="Pangolin" style="width:100%; height:auto;">
+                <h3>Pangolin</h3>
+                <p>Pangolins are critically endangered due to illegal poaching for their scales and meat. Found in parts of Asia and Africa, they play a vital role in controlling insect populations.</p>
+            </div>
+            
+            <div class="species-card">
+                <img src="https://www.bing.com/th?id=OIP.fSo29HfuLEATWqgdx6NkSwHaGS&w=202&h=200&c=8&rs=1&qlt=90&o=6&dpr=1.5&pid=3.1&rm=2" alt="Amur Leopard" style="width:100%; height:auto;">
+                <h3>Amur Leopard</h3>
+                <p>With less than 100 individuals remaining, the Amur leopard is one of the rarest big cats in the world. Conservation efforts focus on habitat protection and anti-poaching measures.</p>
+            </div>
+            
+            <div class="species-card">
+                <img src="https://th.bing.com/th/id/OIP.0tiuj9bQG06x-J3gLGQQSwHaD4?w=323&h=180&c=7&r=0&o=5&dpr=1.5&pid=1.7" alt="Vaquita" style="width:100%; height:auto;">
+                <h3>Vaquita</h3>
+                <p>The Vaquita, a small porpoise, is on the brink of extinction, with only about 10 left in the wild. Found in the Gulf of California, they are victims of bycatch from illegal fishing.</p>
+            </div>
+            
+        </div>
+    </section>
+
+    <footer>
+        <p>&copy; 2024 Nature Conservation Awareness. All Rights Reserved.</p>
+    </footer>
+</body>
+</html>

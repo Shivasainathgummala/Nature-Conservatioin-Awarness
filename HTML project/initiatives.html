@@ -1,0 +1,161 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Conservation Initiatives</title>
+    <style>
+         * General Styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Arial', sans-serif;
+}
+
+body {
+    background-color: #f5f5f5;
+    color: #333;
+    line-height: 1.6;
+}
+
+header {
+    background-color: #2d6a4f;
+    color: white;
+    padding: 20px 0;
+    text-align: center;
+}
+
+header h1 {
+    font-size: 2.5em;
+    font-weight: bold;
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline-block;
+    margin: 0 15px;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+    font-size: 1.2em;
+}
+
+nav ul li a:hover {
+    text-decoration: underline;
+}
+        /* Conservation Initiatives Section */
+.initiative-gallery {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+.initiative-card {
+    background-color: white;
+    border-radius: 80px;
+    padding: 20px;
+    width: 45%;
+    margin-bottom: 40px;
+    text-align: center;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.initiative-card img {
+    max-width: 100%;
+    height: 70%;
+    border-radius: 60px;
+}
+
+.initiative-card h3 {
+    margin-top: 10px;
+    font-size: 1.6em;
+    color: #1b4332;
+}
+
+.initiative-card p {
+    font-size: 1.1em;
+}
+
+/* Blog Section */
+#blog article {
+    margin-bottom: 20px;
+}
+
+#blog h3 {
+    font-size: 1.8em;
+    color: #2d6a4f;
+}
+
+#blog a {
+    color: #1b4332;
+    font-weight: bold;
+    text-decoration: none;
+}
+
+#blog a:hover {
+    text-decoration: underline;
+}
+        
+        
+    </style>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <h1>Nature Conservation Awareness</h1>
+        <nav>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="species.html">Endangered Species</a></li>
+                <li><a href="initiatives.html">Conservation Initiatives</a></li>
+                <li><a href="blog.html">Blog</a></li>
+                <li><a href="events.html">Events</a></li>
+                <li><a href="contact.html">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <section id="initiatives">
+        <h2>Conservation Initiatives</h2>
+        <p>Explore various initiatives to conserve biodiversity and protect ecosystems.</p>
+    </section>
+    <!-- !-- Conservation Initiatives Section -->   
+    <section id="initiatives">
+        <h2>Conservation Initiatives</h2>
+        <div class="initiative-gallery">
+            <div class="initiative-card">
+                <img src="https://th.bing.com/th/id/OIP.-islLinJTyvOb7ohI-Fb1gHaEK?w=309&h=180&c=7&r=0&o=5&dpr=1.5&pid=1.7" alt="Elephants">
+                <h3>Save the Elephants Initiative</h3>
+                <p>Focused on protecting African and Asian elephants from poaching and habitat loss, this initiative promotes anti-poaching patrols and habitat restoration efforts.</p>
+            </div>
+            <div class="initiative-card">
+                <img src="https://images.unsplash.com/photo-1517511620798-cec17d428bc0" alt="Ocean Cleanup">
+                <h3>Ocean Cleanup Project</h3>
+                <p>This global movement aims to clean up the oceans, removing plastic and other pollutants that harm marine life. It also supports sustainable fishing practices.</p>
+            </div>
+            <div class="initiative-card">
+                <img src="https://th.bing.com/th/id/OIP.1k4JBCUp5H5oFEnwASQOQwHaEK?w=315&h=180&c=7&r=0&o=5&dpr=1.5&pid=1.7" alt="Reforestation">
+                <h3>Reforestation for Biodiversity</h3>
+                <p>This project plants trees and native plants in areas affected by deforestation, fostering biodiversity and climate resilience.</p>
+            </div>
+            <div class="initiative-card">
+                <img src="https://th.bing.com/th/id/OIP.Q8KVvo3Uqd1mOBAb2p7xvQHaFj?w=202&h=180&c=7&r=0&o=5&dpr=1.5&pid=1.7" alt="Wildlife Corridor">
+                <h3>Wildlife Corridors Program</h3>
+                <p>This initiative works to create safe migration routes for animals that are displaced by human development, reducing roadkill and genetic isolation.</p>
+            </div>
+        </div>
+    </section>
+
+
+    <footer>
+        <p>&copy; 2024 Nature Conservation Awareness. All Rights Reserved.</p>
+    </footer>
+</body>
+</html>
